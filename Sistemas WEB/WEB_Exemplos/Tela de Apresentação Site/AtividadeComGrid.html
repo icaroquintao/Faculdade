@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Utilizando o Grid</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <style type="text/css">
+    div.fixo{
+      position: fixed;
+      bottom: 0;
+      right: 100;
+      width: 1150px;
+      background-color: #A52A2A;
+      color: white;
+    }
+
+    div.relativo{
+      position: relative;
+      font-style:normal;
+      left: 1000px;
+      top: 10px;
+      background-color: #8B3626;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+
+    .acesso {
+      border-radius: 10px;
+      background-color: #8B3626;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="fixo text-center text-bold">
+      Atividade utilizando Grid - Sistemas para web - Marina Rocha Maia - 11.1.8349
+    </div>
+
+    <div class="text-center">
+      <img src="ufop.png" width="30%" height="30%" alt="ICEA-UFOP" />
+    </div>
+
+    <br />
+
+    <div class="col-lg-12 text-center">
+      <div class="row text-center">
+        <a href="#sistemas" class="btn btn-info">Sistemas de Informação</a>
+        <a href="#computacao" class="btn btn-success">Engenharia da Computação</a>
+        <a href="#producao" class="btn btn-primary">Engenharia de Produção</a>
+        <a href="#eletrica" class="btn btn-warning">Engenharia Elétrica</a>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="col-lg-8">
+      <div class="row">
+        <section id="sistemas">
+          <div class="col-lg-4">
+            <img src="si.jpg" alt="Sistemas de Informação" height="100%" width="100%" />
+          </div>
+          <div class="col-lg-8">
+            <p>
+              Criado em 2005, o curso de Sistemas de Informação da Universidade Federal de Ouro Preto (UFOP) objetiva a formação de profissionais
+              qualificados para atuarem no gerenciamento de empresas dos mais diversos ramos,
+              tais como industrias, empresas de comercio, de prestação de serviços ou de administração publica.
+            </p>
+            <p>
+              O aluno formado terá habilidades, dentro dos Sistemas de Gerenciamento de Informação,
+              para identificar e analisar o fluxo de dados de uma empresa.
+            </p>
+            <p>
+              A partir daí poderá modelar e propor soluções computacionais para o gerenciamento de tais informações,
+              visando à inovação dos processos e operações de negocio empresariais.
+            </p>
+            <p>
+              Dessa maneira, o profissional se torna um elemento-chave no sucesso do mundo dos negócios,
+              em meio a um mercado de trabalho competitivo.
+            </p>
+            <a href="http://www.icea.ufop.br/site/index.php/graduacao/sistemas-de-informacao.html">Saiba mais</a>
+          </div>
+        </section>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <section id="computacao">
+          <div class="col-lg-4">
+            <img src="EngenhariaComputacao.jpg" alt="Engenharia da Computação" height="100%" width="100%" />
+          </div>
+          <div class="col-lg-8">
+            <p>
+              Implantado no segundo semestre de 2009, como parte da expansão da Universidade Federal de Ouro Preto,
+              o curso de Engenharia da Computação faz parte do Instituto de Ciências Exatas e Aplicadas (ICEA),
+              localizado no campus de João Monlevade. Tem como objetivo a formação de profissionais empreendedores
+              capazes de desenvolver atividades nas áreas de engenharia de software, redes e telecomunicações.
+            </p>
+            <a href="http://www.icea.ufop.br/site/index.php/graduacao/engenharia-de-computacao.html">Saiba mais</a>
+          </div>
+        </section>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <section id="producao">
+          <div class="col-lg-4">
+            <img src="EngenhariaProdução.jpg" alt="Engenharia de Produção" height="100%" width="100%" />
+          </div>
+          <div class="col-lg-8">
+            <p>
+              A UFOP oferece o curso de Engenharia de Produção em dois campus, Ouro Preto e João Monlevade, no campus Morro do cruzeiro,
+              ele funciona desde 1998. Em João Monlevade, no Instituto de Ciências exatas e Aplicadas (ICEA) a graduação existe desde 2002.
+            </p>
+            <p>
+              A Engenharia de Produção tem como principal característica uma formação abrangente ao englobar um conjunto de
+              conhecimentos e habilidades relacionadas a economia, meio ambiente, finanças, administração, ciências humanas,
+              e os conhecimentos básicos da engenharia. Com um viés, visa formar profissionais capazes de executar projetos e
+              gerenciar sistemas que envolvem pessoas, materiais, equipamentos e ambientes em praticamente qualquer tipo de
+              organização, alem das empresas industriais.
+            </p>
+            <a href="http://www.icea.ufop.br/site/index.php/graduacao/engenharia-de-producao.html">Saiba mais</a>
+          </div>
+        </section>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <section id="eletrica">
+          <div class="col-lg-4">
+            <img src="EngenhariaEletrica.png" alt="Engenharia Elétrica" height="100%" width="100%" />
+          </div>
+          <div class="col-lg-8">
+            <p>
+              O curso de Engenharia Elétrica da Universidade Federal de Ouro Preto (UFOP) teve inicio no segundo semestre de 2009
+              no Instituto de Ciências Exatas e Aplicadas (ICEA), localizado no campus de João Monlevade.
+            </p>
+            <p>
+              Tem como objetivo formar profissionais com estudos teóricos embasados no calculo, na eletricidade, na eletrônica e na informática.
+            </p>
+            <a href="http://www.icea.ufop.br/site/index.php/graduacao/engenharia-eletrica.html">Saiba mais</a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="col-lg-4 acesso">
+      <h3 class="text-center">Acesso</h3>
+
+      <form class="form" action="AtividadeComGrid.html" method="get">
+        <div class="form-group">
+          <label for="usuario">Usuário</label>
+          <input type="text" class="form-control" id="usuario" placeholder="Usuário">
+        </div>
+
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input type="password" class="form-control" id="senha" placeholder="Senha">
+        </div>
+      </form>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-success">Entrar</button>
+        <button type="reset" class="btn btn-default">Limpar</button>
+      </div>
+
+      <br />
+
+    </div>
+
+  </div>
+</body>
+</html>

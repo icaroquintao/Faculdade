@@ -1,0 +1,5 @@
+Para importar o banco:
+
+1 . Apagar o atalho da pasta storage na pasta public
+2 . No terminal dar o comando php atisan config:cache
+3 . No terminal dar o comando php artisan storage:link

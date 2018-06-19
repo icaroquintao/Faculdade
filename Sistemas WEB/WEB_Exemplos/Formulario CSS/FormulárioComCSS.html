@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Formulário Com CSS</title>
+    <link rel="stylesheet" type="text/css"
+       href="estilo.css" />
+
+    <div id ="topo">
+      <center>
+        <img src="icea.jpg" width="30%" height="30%" alt="ICEA-UFOP" alt="Imagem nao encontrada"/>
+      </center>
+    </div>
+
+
+  </head>
+
+  <body>
+    <center>
+      <h1> Cadastro de Alunos(as) </h1>
+      <br>
+
+      <h5>Selecione o gênero:</h5>
+        <input type="radio" name="genero" value="F">Feminino
+        <input type="radio" name="genero" value="M">Masculino
+        <br><br>
+
+      <h5>Selecione as matérias de interesse:</h5>
+        <input type="checkbox" name="area"/>Redes<br>
+        <input type="checkbox" name="area"/>BD<br>
+        <input type="checkbox" name="area"/>ES<br>
+        <input type="checkbox" name="area"/>WEB<br>
+
+
+      <input type="hidden" name="id" value="12345"/>
+      <br>
+
+      <h5>Selecione a cidade:</h5>
+        <div id="listaCidades">
+
+          <select name="cidade">
+            <option value="1">João Monlevade</option>
+            <option value="2">Itaúna</option>
+            <option value="3">Itabira</option>
+            <option value="4">Belo Horizonte</option>
+            <option value="5">Alvinópolis</option>
+          </select>
+        </div>
+
+      <h5>Insira os dados solicitados:</h5>
+        Nome: <input type="text" name="nome"/><br><br>
+        Usuário: <input type="text" name="usuario"/><br><br>
+        Senha: <input type="password" name="senha"/><br><br><br>
+
+      <h5>Insira seus comentários:</h5>
+        <textarea name="comentario" rows="3" cols="20">Comentários</textarea><br><br>
+
+      <h5>Insira seu grau de satisfação:</h5>
+        <input type="range" name="satisfacao" min="0" max="10"><br><br>
+
+      <h5>Selecione a cor de fundo:</h5>
+        <input type="color" name="corFundo"><br><br>
+
+      <h5>Insira sua data de nascimento:</h5>
+        <input type="date" name="nascimento"><br><br><br>
+
+      <a href="ConfirmaçãoComCSS.html"><input type="submit" value="Cadastrar"/></a>
+      <a href="FormulárioComCSS.html"><input type="reset" value="Limpar"/></a>
+      </form><br><br><br>
+      <a href="MenuComCSS.html">Voltar</a>
+    </center>
+  </body>
+</html>

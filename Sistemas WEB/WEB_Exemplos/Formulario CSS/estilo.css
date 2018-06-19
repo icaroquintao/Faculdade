@@ -1,0 +1,65 @@
+    h1{
+          font-family: tahoma, arial;
+          color: #8B0000;
+          text-align: center;
+    }
+
+    h2{
+      font-family: arial;
+      text-align : center;
+    }
+
+    h5{
+      font-family: arial;
+      text-align: center;
+      color: #B22222;
+    }
+
+    tr.bege{
+      background : #F5F5DC;
+      font-family: arial;
+    }
+
+    tr.coral{
+      background:#CD5B45;
+      font-family: arial;
+    }
+
+    tr.titulo{
+      color: white;
+      background: #8B0000;
+      font-family: arial;
+    }
+
+    tr.azul{
+      color: white;
+      background: blue;
+      font-family: arial;
+    }
+
+
+    th {
+      font-family: arial;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    table {
+      width: 80%;
+      margin: auto;
+    }
+
+    th {
+      text-align: center;
+      height: 50px;
+    }
+
+    td {
+      text-align: left;
+    }
+
+    form{
+      margin: auto;
+    }

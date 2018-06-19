@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário com Javascript</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+      <h1 class="text-center"> Cadastro de Alunos(as) </h1><br>
+
+      <div class="col-lg-6 col-lg-offset-3">
+        <form class="form" name="formulario" action="Formulário.html" onsubmit="return validarFormulario()" method="post">
+            <h3>Sexo</h3>
+            <input type="radio" name="genero" value="F" required = "true">Feminino
+            <input type="radio" name="genero" value="M" required = "true">Masculino
+            <br>
+
+            <h3>Áreas de interesse</h3>
+            <input type="checkbox" name="area"/>Redes
+            <br>
+            <input type="checkbox" name="area" />BD
+            <br>
+            <input type="checkbox" name="area" />ES
+            <br>
+            <input type="checkbox" name="area" />WEB
+            <br>
+
+            <input type="hidden" name="id" value="12345"/><br>
+
+            <div id="listaCidades">
+              <select name="cidade">
+                <option value="1">João Monlevade</option>
+                <option value="2">Itaúna</option>
+                <option value="3">Itabira</option>
+                <option value="4">Belo Horizonte</option>
+                <option value="5">Alvinópolis</option>
+                <br>
+              </select>
+            </div>
+            <br>
+            Nome: <input type="text" name="nome"/><br>
+            Usuário: <input type="text" name="usuario"/><br>
+            Senha: <input type="password" name="senha"/><br>
+
+            <br><textarea name="comentario" rows="3" cols="20">Comentários</textarea><br><br>
+            <input type="range" name="satisfacao" min="0" max="10"><br><br>
+            <input type=" number" name="quantidade" min="0" max="10"><br><br>
+            <input type="color" name="corFundo"><br><br>
+            <input type="date" name="nascimento"><br><br>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> Confirmar</button>
+              <button type="reset" class="btn btn-warning"><i class="fa fa-eraser"></i> Limpar</button>
+            <br><br>
+            </div>
+          </form>
+
+          <script>
+            function validarFormulario() {
+              var genero = document.forms["formulario"]["genero"].value;
+
+              var checkBoxes = document.getElementsByName('area'); // Pega todas as inputs com o nome 'area'
+              var checkBoxSelecionada = false; // Assume que nenhuma foi selecionada
+              for (var i = 0; i < checkBoxes.length; i++) { // Para todas as checkBoxes
+                if(checkBoxes[i].checked) { // Se alguma estiver checkada
+                  checkBoxSelecionada = true; // a variável corresponde receve true
+                  break; // e paramos o loop
+                }
+              }
+
+              if (genero == null || genero == "") { // Se genero for vazio ou null (varia de navegador para navegador o padrão), é porque nenhuma foi selecionada
+                alert("Você precisa informar o sexo!");
+                return false;
+              }
+              else if (checkBoxSelecionada == false) { // Se for falso, nenhuma checkBox foi selecionada
+                alert("Você precisa informar pelo menos uma área de interesse!");
+                return false;
+              }
+              else { // Senão, todos os campos foram confirmados
+                alert("Campos confirmados");
+                return true;
+              }
+            }
+          </script>
+
+      </div>
+
+  </body>
+</html>

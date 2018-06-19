@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1517861012 source:c:\users\bruno souza ramos\desktop\faculdade\computação grafica\labirinto\main.cpp
+	<GL/gl.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<math.h>
+	<time.h>
+	"CarregarArquivo.cpp"
+
+1516991910 c:\users\bruno souza ramos\desktop\faculdade\computação grafica\labirinto\carregararquivo.cpp
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<GL/gl.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<vector>
+	<string>
+
