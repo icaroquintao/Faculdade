@@ -1,0 +1,9 @@
+costume 1111 
+virou 1110 
+diz 1101 
+me 1100 
+mania 10111 
+ja 10110 
+acha 1010 
+que 1001 
+o 1000 
