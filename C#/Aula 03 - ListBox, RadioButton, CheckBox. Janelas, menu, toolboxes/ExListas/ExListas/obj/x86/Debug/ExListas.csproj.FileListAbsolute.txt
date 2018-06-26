@@ -1,0 +1,25 @@
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\bin\Debug\ExListas.exe
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\bin\Debug\ExListas.pdb
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\ExListas.Form1.resources
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\ExListas.Properties.Resources.resources
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\ExListas.exe
+c:\users\ledon\documents\visual studio 2010\Projects\ExListas\ExListas\obj\x86\Debug\ExListas.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\obj\x86\Debug\ExListas.exe
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\obj\x86\Debug\ExListas.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\bin\Debug\ExListas.exe
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\bin\Debug\ExListas.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\obj\x86\Debug\ExListas.csprojResolveAssemblyReference.cache
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\obj\x86\Debug\ExListas.Form1.resources
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\obj\x86\Debug\ExListas.Properties.Resources.resources
+C:\D\Aulas   -    2014 - 2º semestre\TE\ExListas\ExListas\obj\x86\Debug\ExListas.csproj.GenerateResource.Cache
+C:\D\A01\ExListas\ExListas\obj\x86\Debug\ExListas.exe
+C:\D\A01\ExListas\ExListas\obj\x86\Debug\ExListas.pdb
+C:\D\A01\ExListas\ExListas\bin\Debug\ExListas.exe
+C:\D\A01\ExListas\ExListas\bin\Debug\ExListas.pdb
+C:\D\A01\ExListas\ExListas\obj\x86\Debug\ExListas.csprojResolveAssemblyReference.cache
+C:\D\A01\ExListas\ExListas\obj\x86\Debug\ExListas.Form1.resources
+C:\D\A01\ExListas\ExListas\obj\x86\Debug\ExListas.Properties.Resources.resources
+C:\D\A01\ExListas\ExListas\obj\x86\Debug\ExListas.csproj.GenerateResource.Cache

@@ -1,0 +1,18 @@
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\bin\Debug\EscolaBDMySQL.exe.config
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\bin\Debug\EscolaBDMySQL.exe
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\bin\Debug\EscolaBDMySQL.pdb
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.Form1.resources
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.Properties.Resources.resources
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.csproj.GenerateResource.Cache
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.exe
+c:\users\mfpledon\documents\visual studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.pdb
+C:\Users\mfpledon\Documents\Visual Studio 2013\Projects\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.csprojResolveAssemblyReference.cache
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\bin\Debug\EscolaBDMySQL.exe.config
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.exe
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.pdb
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.csprojResolveAssemblyReference.cache
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.Form1.resources
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.Properties.Resources.resources
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\obj\Debug\EscolaBDMySQL.csproj.GenerateResource.Cache
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\bin\Debug\EscolaBDMySQL.exe
+T:\Aula 04 - TE\EscolaBDMySQL\EscolaBDMySQL\bin\Debug\EscolaBDMySQL.pdb

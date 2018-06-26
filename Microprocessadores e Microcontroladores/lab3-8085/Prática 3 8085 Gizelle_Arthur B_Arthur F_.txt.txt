@@ -1,0 +1,139 @@
+._________________________________________________________________________________________.
+|     INSTITUTO DE CIÊNCIAS EXATAS E APLICADAS - ICEA/UFOP - CAMPUS JOÃO MONLEVADE        |
+|                       DEPARTAMENTO DE ENGENHARIA ELÉTRICA                               |
+|            CEA580 - MICROPROCESSADORES E MICROCONTROLADORES - Turma 22                  |
+|                                                                                         |
+|Nomes: Arthur Bernardo, Arthur Felipe, Gizelle Silva, Leilison Figueiredo                |
+|_________________________________________________________________________________________|
+
+			PRÁTICA MICRO 8085 - LABORATÓRIO 03
+
+questão 01 - A partir do resultado, resuma as operações realizadas pelo programa, 
+comentando-o.
+
+// 8085 – Lab3 - Primeiro Programa
+# ORG 2000H
+# BEGIN 2000H
+ LXI H,2050
+ MVI A,01
+ MOV M,A
+ MVI A,05
+ INR A
+ INR M
+ INX H
+ MOV M,A
+ MVI A,00
+ 
+ INX B
+ LDAX B
+ INR A
+ HLT
+
+Primeiro o valor 2050 é carregado no par HL, o valor 01 é carregado no acumulador, o conteudo
+do acumulador é movido para a região de memoria na posição indicada pelo par HL, o valor 05 é 
+movido para o acumulador, o conteudo do acumulador é incrementado, o conteudo do endereço 
+indicado pelo par HL é incrementado, o conteudo do par HL é incrementado, o conteudo do 
+acumulador é movido para o endereço indicado pelo par HL, o par BC é carregado com o valor 2050,
+o conteudo do par BC é incrementado, o conteudo na região de memoria indicada pelo par BC é 
+carregado no acumulador, o conteudo do acumulador é incrementado.
+____________________________________________________________________________________________________
+
+QUESTÃO 2
+
+# ORG 2000H
+# BEGIN 2000H
+
+MVI A,01
+LXI B,2050
+STAX B
+INR A
+INX B
+
+STAX B
+INR A
+INX B
+
+STAX B
+INR A
+INX B
+
+STAX B
+INR A
+INX B
+
+STAX B
+INR A
+INX B
+HLT
+____________________________________________________________________________________________________
+
+QUESTÃO 3
+
+// 8085 – Lab3 - Segundo Programa
+# ORG 2000H
+# BEGIN 2000H
+ LXI H,2050
+ MVI A,04
+ MOV M,A
+MENOS: DCR A
+ DCR M
+ DCX H
+ MOV M,A
+ CPI 00
+ JNZ MENOS
+ HLT
+
+O valor 2050 é mocido para o par HL, o valor 04 é movido para o acumulador, o conteudo do acumulador é
+movido para região de memoria indicada pelo par HL, o conteudo do acumulador é decrementado, o conteudo
+da região de memoria indicado pelo par HL é decrementado, o conteudo do par HL é decrementado, o 
+conteudo do acumulador é movido para a posição da memoria indicado pelo par HL, comparação do conteudo do
+acumulador com o valor 00, jump para a tag "MENOS' caso o acumulador nao sejá 0, o loop é refeito ate 
+que o conteudo do acumulador seja 00.
+____________________________________________________________________________________________________
+
+QUESTÃO 4
+
+# ORG 2000H
+# BEGIN 2000H
+INI:
+MVI A,01
+LOOP:
+
+INR A
+CPI 05
+JNZ LOOP
+JMP INI
+HLT
+____________________________________________________________________________________________________
+
+QUESTÃO 5
+
+# ORG 2000H
+# BEGIN 2000H
+ LXI H,2070
+ MVI A,01
+ MOV M,A
+MAIS: INR A
+ INX H
+ MOV M,A
+ CPI 0A
+ JNZ MAIS
+ HLT
+____________________________________________________________________________________________________
+
+QUESTÃO 6
+
+# ORG 2000H
+# BEGIN 2000H
+INI:
+MVI A,0A
+LOOP:
+
+DCR A
+CPI 05
+JNZ LOOP
+JMP INI
+HLT
+____________________________________________________________________________________________________
+
+

@@ -1,0 +1,29 @@
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\bin\Debug\ExemploBD.exe.config
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\bin\Debug\ExemploBD.exe
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\bin\Debug\ExemploBD.pdb
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.csprojResolveAssemblyReference.cache
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.Form1.resources
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.Form2.resources
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.Properties.Resources.resources
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.csproj.GenerateResource.Cache
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.exe
+D:\2semestre2015\4 Topicos Especiais TADS\Aula 5---\Exemplos\ExemploBD\ExemploBD\obj\Debug\ExemploBD.pdb
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\bin\Debug\ExemploBD.exe.config
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.exe
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.pdb
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.csprojResolveAssemblyReference.cache
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.Form1.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.Form2.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.Properties.Resources.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.csproj.GenerateResource.Cache
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\bin\Debug\ExemploBD.exe
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\bin\Debug\ExemploBD.pdb
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\bin\Debug\ExemploBD.exe.config
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.exe
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.pdb
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\bin\Debug\ExemploBD.exe
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\bin\Debug\ExemploBD.pdb
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.Form1.resources
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.Form2.resources
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.Properties.Resources.resources
+T:\Aula 05 - TE - 2015\ExemploBDPreparedStatement\ExemploBD\obj\Debug\ExemploBD.csproj.GenerateResource.Cache

@@ -1,0 +1,370 @@
+._________________________________________________________________________________________.
+|     INSTITUTO DE CIÊNCIAS EXATAS E APLICADAS - ICEA/UFOP - CAMPUS JOÃO MONLEVADE        |
+|                       DEPARTAMENTO DE ENGENHARIA ELÉTRICA                               |
+|            CEA580 - MICROPROCESSADORES E MICROCONTROLADORES - Turma 22                  |
+|                                                                                         |
+|Nomes: Arthur Bernardo, Arthur Felipe, Gizelle Silva,                                    |
+|_________________________________________________________________________________________|
+
+			PRÁTICA MICRO 8085 - LABORATÓRIO 04
+
+01) A partir do resultado, resuma as operações realizadas pelo programa, comentando-o.
+
+ // 8085 - Lab4 - Primeiro Programa
+# ORG 2000 H
+# BEGIN 2000 H
+ MVI A ,06
+ LXI B ,1509
+ LXI H ,2000
+
+ COMPARA : CMP C
+ JZ SEGUE
+ INR A
+ JC COMPARA
+ SEGUE : PCHL
+
+Comentando sobre o código acima, temos a inicialização dos registradores com valores indicados pelos mnemônicos, e que sera incrementado o valor do acumulador e assim que este for igual ao valor do registrador C sera feito um desvio para o endereço 
+fornecido pelo par HL, em que esta o inicio do programa, assim repetindo o comando com um loop utilizando o contador de programa.
+--------------------------------------------------------------------------------------------
+
+02)
+ //8085 - Lab2 - Segundo Programa
+ // armazeno os valores iniciais
+ # ORG 2000 H
+ # BEGIN 2000 H
+ MVI A,AA
+ LXI B ,2050
+ STAX B
+ INX B
+ MVI A ,23
+ STAX B
+ INX B
+ MVI A,BC
+ STAX B
+ INX B
+ MVI A ,05
+ STAX B
+ INX B
+ MVI A ,12
+ STAX B
+ INX B
+ MVI A ,43
+ STAX B
+ LXI B ,2050
+ MOV A,C
+ MVI D ,20
+ MVI E ,70
+
+SOMAREGISTRADOR :
+ MOV H,B
+ MOV L,C
+ INR L
+ MOV A,C
+ CMP L
+ JZ FIM
+ LDAX B
+ JNZ COMPARA
+
+COMPARA2 :
+ MOV H,B
+ MOV L,C
+ DCR L
+ LDAX B
+ CMP M
+ JPO COMPARA2
+ JPE ORDEM
+
+COMPARA :
+ CMP M
+ JPE TROCA
+ INR L
+ JPO COMPARA
+ JPE ORDEM
+
+TROCA : MOV B,H
+ MOV C,L
+ INR L
+ JNZ COMPARA
+
+ORDEM : LDAX B
+ STAX D
+ INR E
+ MVI A,AA
+ STAX B
+ MOV B,D
+ MVI A ,75
+ SUB E
+ ADI 50
+ MOV C,A
+ JNZ COMPARA
+ HLT
+
+Neste segundo programa começamos adicionarmos os valores aos respectivos
+enderecos de memoria, e assim são comparados 1 á 1 e trocada as
+posições dos menores até serem completamente ordenados, em vou comparando
+o primeiro com os demais até encontrar o primeiro menor, depois a
+mesma analogia, para segundo menor, tericeiro menor...etc, até que esteja
+completamente ordenado.
+--------------------------------------------------------------------------------------------
+
+03) 
+//8085 - Lab4 - terceiro Programa
+// armazeno os valores iniciais
+ # ORG 2000 H
+ # BEGIN 2000 H
+ MVI A,AA
+ LXI B ,2050
+ STAX B
+ INX B
+
+ MVI A ,23
+ STAX B
+ INX B
+
+ MVI A,BC
+ STAX B
+ INX B
+
+ MVI A ,05
+ STAX B
+ INX B
+
+ MVI A ,12
+ STAX B
+ INX B
+
+ MVI A ,43
+ STAX B
+ LXI B ,2050
+
+ MOV A,C
+ MVI D ,20
+ MVI E ,70
+
+SOMAREGISTRADOR :
+ MOV H,B
+ MOV L,C
+ INR L
+ MOV A,C
+ CMP L
+ JZ FIM
+ LDAX B
+ JNZ COMPARA
+
+COMPARA2 :
+ MOV H,B
+ MOV L,C
+ DCR L
+ LDAX B
+ CMP M
+ JPO COMPARA2
+ JPE ORDEM
+
+COMPARA :
+ CMP M
+ JNC TROCA
+ INR L
+ JPO COMPARA
+ JPE ORDEM
+
+TROCA :
+ MOV B,H
+ MOV C,L
+ INR L
+ JNZ COMPARA
+
+ORDEM :
+ LDAX B
+ STAX D
+ INR E
+ MVI A,AA
+ STAX B
+ MOV B,D
+ MVI A ,75
+ SUB E
+ ADI 50
+ MOV C,A
+ JNZ COMPARA
+
+FIM: 
+ HLT
+
+O terceiro programa utiliza a mesma ideia do anterior, apenas foi alterado
+para atender a condições de ser decrescente
+--------------------------------------------------------------------------------------------
+
+04) A partir do resultado, resuma as operações realizadas pelo programa, comentando-o.
+
+ // 8085 - Lab4 - Quarto Programa
+# ORG 2000 H
+# BEGIN 2000 H
+ MVI A ,01
+ LXI H ,2050
+TESTA : ADI 00
+ JPE PAR
+ INR A
+ JPO TESTA
+PAR:
+ MOV M,A
+ HLT
+
+O quarto programa utiliza combinações entre acumulador mais operações de incremento do 
+acumulador, onde ap os encontrar um n umero par  e feito um desvio para endereçar na mem oria
+o valor do par HL, e assim adicionar o conte udo do acumualdor. Posteriormente é feito HLT 
+para terminar o programa.
+--------------------------------------------------------------------------------------------
+
+05 -
+// 8085 - Lab4 - Quinto Programa
+// armazeno os valores iniciais
+ # ORG 2000 H
+ # BEGIN 2000 H
+ MVI A,F0
+ LXI B ,2050
+ STAX B
+ INX B
+ MVI A,D1
+ STAX B
+ INX B
+ MVI A,BC
+ STAX B
+ INX B
+ MVI A ,32
+ STAX B
+ INX B
+ MVI A ,12
+ STAX B
+ INX B
+ MVI A ,43
+ STAX B
+ LXI H ,2050
+ MVI A ,00
+
+ SOMA : ADD M
+ INR L
+ MOV B,A
+ MVI C ,55
+ MOV A,L
+ CMP C
+ MOV A,B
+ JNZ SOMA
+ LXI B ,2070
+ STAX B
+ HLT
+Neste código é feito o enderecamento da região da memória e adicionado
+o conteúdo do acumulador, que logo apos e feito uma laço para rodar todas
+as posições solicitadas para somar o valor nal entre os conteúdos da região,
+e depois endereçado em 2070.
+--------------------------------------------------------------------------------------------
+
+06 - 
+// 8085 - Lab4 - Sexto Programa
+# ORG 2000 H
+# BEGIN 2000 H
+ MVI A ,01
+ LXI B ,2050
+ STAX B
+ INX B
+ MVI A ,02
+ STAX B
+ INX B
+ MVI A ,03
+ STAX B
+ INX B
+ MVI A ,04
+ STAX B
+ INX B
+ MVI A ,05
+ STAX B
+ INX B
+ MVI A ,06
+ STAX B
+ LXI B ,2050
+ LDAX B
+ LXI H ,2060
+ LXI D ,2070
+ LXI B ,2050
+
+TESTA : LDAX B
+ ADI 00
+ JPE GPA
+ CPI 6
+ JNZ FIM
+ INX B
+ JPO TESTA
+
+GPB: STAX D
+ INR E
+ JPO TESTA
+
+GPA: MOV M,A
+ INR L
+ JPO TESTA
+
+FIM:
+ HLT
+
+Primeiro é endereçado todos os valores aos respectivos endereços de memórias
+formados pelo par BC. Logo após foram realizados os testes para verificar se
+o número formado pela quantidade de 1's é par ou impar. Caso seja par faço
+um salto para o endereço e volto para testar o próximo. A mesma ideia é
+aplicada com ímpar. O programa só termina quando ja todos os enderecos
+de memória foram verificados.
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+# ORG 2000 H
+# BEGIN 2000 H
+	   MVI A,AA
+	   LXI H,2050
+	   MOV M,A
+	   MVI A,23
+	   LXI H,2051
+	   MOV M,A
+	   MVI A,BC
+	   LXI H,2052
+	   MOV M,A
+
+
+	 LXI H,2050
+	   MVI A,23
+	   CMP M
+	   JC TROCA
+
+CC:	   LXI H,2050
+	   MVI A,BC
+	   CMP M
+	   JC TROCA
+
+	   LXI H,2051
+	   MVI A,BC
+	   CMP M
+	   JC TROCA2
+	   HLT
+
+TROCA:	   LXI B,2051
+	   
+	   MOV D,M
+	   MOV B,D
+	   MOV M,A
+	   JMP CC
+
+TROCA2:	   LXI B,2052
+	   
+	   MOV D,M
+	   MOV B,D
+	   MOV M,A
+	  
+	
+	 
+	   HLT
+

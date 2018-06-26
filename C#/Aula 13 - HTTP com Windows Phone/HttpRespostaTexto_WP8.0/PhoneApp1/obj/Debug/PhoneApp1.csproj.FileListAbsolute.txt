@@ -1,0 +1,38 @@
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.dll
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\AppManifest.xaml
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\App.g.cs
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\MainPage.g.cs
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.dll
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\PhoneApp1.pdb
+T:\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\PhoneApp1\PhoneApp1\obj\Debug\XapCacheFile.xml
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Assets\ApplicationIcon.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\PhoneApp1.dll
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\PhoneApp1.pdb
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\AppManifest.xaml
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\Properties\WMAppManifest.xml
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\Bin\Debug\PhoneApp1_Debug_AnyCPU.xap
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\App.g.cs
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\MainPage.g.cs
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\PhoneApp1.g.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\PhoneApp1.Resources.AppResources.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\PhoneApp1.csproj.GenerateResource.Cache
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\PhoneApp1.dll
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\PhoneApp1.pdb
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 13 - TE - 2015 - Outras possibilidades com Windows Phone\WP_app_solicitacao_Http_para_VS_2013_ultimate\PhoneApp1\obj\Debug\XapCacheFile.xml

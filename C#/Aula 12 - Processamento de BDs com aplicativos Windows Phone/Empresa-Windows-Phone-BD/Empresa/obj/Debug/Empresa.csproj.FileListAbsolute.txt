@@ -1,0 +1,78 @@
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Empresa.dll
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Empresa.pdb
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\AppManifest.xaml
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\Bin\Debug\Empresa_Debug_AnyCPU.xap
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\App.g.cs
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\MainPage.g.cs
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\Empresa.g.resources
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\Empresa.Resources.AppResources.resources
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\Empresa.csproj.GenerateResource.Cache
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\Empresa.dll
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\Empresa.pdb
+c:\users\logonaf.grupocruzeiro\documents\visual studio 2013\Projects\Empresa\Empresa\obj\Debug\XapCacheFile.xml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Assets\ApplicationIcon.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Empresa.dll
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Empresa.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\AppManifest.xaml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Properties\WMAppManifest.xml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\Bin\Debug\Empresa_Debug_AnyCPU.xap
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\App.g.cs
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\MainPage.g.cs
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\Empresa.g.resources
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\Empresa.Resources.AppResources.resources
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\Empresa.csproj.GenerateResource.Cache
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\Empresa.dll
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\Empresa.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone\Empresa\obj\Debug\XapCacheFile.xml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\ApplicationIcon.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Empresa.dll
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Empresa.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\AppManifest.xaml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Properties\WMAppManifest.xml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Empresa_Debug_AnyCPU.xap
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\App.g.cs
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\MainPage.g.cs
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.g.resources
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.Resources.AppResources.resources
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.csproj.GenerateResource.Cache
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.dll
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.pdb
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\XapCacheFile.xml
+C:\D\Aulas   -    2014 - 2º semestre\TE\Empresa-Windows-Phone-BD\Empresa\obj\Debug\listaPorSexo.g.cs
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\ApplicationIcon.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Empresa.dll
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Empresa.pdb
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\AppManifest.xaml
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Properties\WMAppManifest.xml
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\Bin\Debug\Empresa_Debug_AnyCPU.xap
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\App.g.cs
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\listaPorSexo.g.cs
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\MainPage.g.cs
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.g.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.Resources.AppResources.resources
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.csproj.GenerateResource.Cache
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.dll
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\Empresa.pdb
+C:\D\Aulas      -    2015 - 2º semestre\TE\Aula 12 - TE - 2015 - Windows Phone - parte 2 - BDs\Empresa-Windows-Phone-BD\Empresa\obj\Debug\XapCacheFile.xml

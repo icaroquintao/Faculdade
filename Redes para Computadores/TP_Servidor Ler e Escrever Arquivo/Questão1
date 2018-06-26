@@ -1,0 +1,6 @@
+Desenvolver um algoritmo que:
+
+Leia um arquivo texto, de um texto qualquer chamado “arq.txt”.
+Transmita este arquivo texto para outro computador.
+O outro computador deve ler este arquivo e gravar em um 
+arquivo “arq2.txt”
