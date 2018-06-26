@@ -1,0 +1,57 @@
+// 8085 - Lab2 - Primeiro Programa
+# ORG 2000H
+# BEGIN 2000H
+	//MOVENDO DADOS PARA POSIÇOES DE 2050 A 2054
+	MVI A, 01     //move o valor para o acumulador
+	LXI B,2050   //move o valor 2050 para o par BC
+	STAX B       //enderaça na memória o valor do par BC e adiciona o conteúdo do acumulador
+	
+	MVI A, 02    //move o valor para o acumulador
+	LXI B,2051  //move o valor 2050 para o par BC
+	STAX B      //enderaça na memória o valor do par BC e adiciona o conteúdo do acumulador
+	
+	MVI A, 03   //move o valor para o acumulador
+	LXI B,2052  //move o valor 2050 para o par BC
+	STAX B      //enderaça na memória o valor do par BC e adiciona o conteúdo do acumulador
+	    
+	MVI A, 04   //move o valor para o acumulador
+	LXI B,2053  //move o valor 2050 para o par BC
+	STAX B       //enderaça na memória o valor do par BC e adiciona o conteúdo do acumulador
+	
+	MVI A, 05    //move o valor para o acumulador
+	LXI B,2054   //move o valor 2050 para o par BC
+	STAX B       //enderaça na memória o valor do par BC e adiciona o conteúdo do acumulador
+	
+	//COPIANDO OS DADOS DAS POSIÇOES (2050 A 	2054) PARA (2080 A 2084)
+	
+	LXI D, 2050  //move parar o par De o valor 2050
+	LDAX D       //pego conteúdo do par DE e adiciono no acumulador
+	LXI H, 2080  //move o valor para o par HL
+	MOV M,A      //Endereça a memória o valor do par HL e adiciona o conteúdo do acumulador 
+	
+	
+	LXI D, 2051    //move parar o par De o valor 2050
+	LDAX D        //pego conteúdo do par DE e adiciono no acumulador
+	LXI H, 2081  //move o valor para o par HL
+	MOV M,A     //Endereça a memória o valor do par HL e adiciona o conteúdo do acumulador 
+	
+	LXI D, 2052 //move parar o par De o valor 2050
+	LDAX D      //pego conteúdo do par DE e adiciono no acumulador
+	LXI H, 2082 //move o valor para o par HL
+	MOV M,A     //Endereça a memória o valor do par HL e adiciona o conteúdo do acumulador 
+	
+	LXI D, 2053    //move parar o par De o valor 2050
+	LDAX D        //pego conteúdo do par DE e adiciono no acumulador
+	LXI H, 2083  //move o valor para o par HL
+	MOV M,A     //Endereça a memória o valor do par HL e adiciona o conteúdo do acumulador
+	
+	LXI D, 2054
+	LDAX D
+	LXI H, 2084
+	MOV M,A       //Endereça a memória o valor do par HL e adiciona o conteúdo do acumulador
+	
+	HLT
+	
+
+	 
+

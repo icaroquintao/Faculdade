@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1499630690 source:c:\users\arthu\documents\codeblocksprojects\tp1_analise_numerica\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1499801146 source:c:\users\arthu\documents\codeblocksprojects\tp1_analise_numerica\metodos de calculo.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
