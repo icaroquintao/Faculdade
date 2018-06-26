@@ -1,0 +1,235 @@
+._________________________________________________________________________________________.
+|     INSTITUTO DE CIÊNCIAS EXATAS E APLICADAS - ICEA/UFOP - CAMPUS JOÃO MONLEVADE        |
+|                       DEPARTAMENTO DE ENGENHARIA ELÉTRICA                               |
+|            CEA580 - MICROPROCESSADORES E MICROCONTROLADORES - Turma 22                  |
+|                                                                                         |
+|Nomes: Arthur Bernardo, Arthur Felipe, Gizelle Silva, Vinícius Fialho                    |
+|_________________________________________________________________________________________|
+
+			PRÁTICA MICRO 8085 - LABORATÓRIO 02
+
+01) A partir do resultado, resuma as operações realizadas pelo programa, comentando-o.
+
+ //8085 - Lab2 - Primeiro Programa
+ # ORG 2000 H
+ # BEGIN 2000 H
+ LXI H ,2050 H
+ MVI M ,70H
+ MVI A ,20H
+ STA 2051 H
+ LHLD 2050 H
+ MOV M,A
+ SHLD 2052 H
+ LXI B ,2052 H
+ LDAX B
+ MVI A ,40H
+ LXI D ,2072 H
+ STAX D
+ XCHG
+ HLT
+
+Falando de maneira sucinta do código acima dá enfase nas novas instruções do 8050, assim
+começamos o programa dizendo qual região da memória será utilizada para manipulação dos
+dados, com LXI movemos o valor 2050 para o par HL, na segunda instrução é utilizado o valor
+do par HL como endereço de memória e movemos o valor 70h nele, depois é mudado o valor do
+acumulador e logo após dando um STA, onde é endereçado um valor de memória colocando o valor
+no acumulador como conteúdo.
+
+Diferente dos outros códigos é utilizado LHLD onde copiamos o valor de memória endereçado
+pelo 2050 substituindo o conteúdo do registrador L pelo conteúdo endereçado na instrução,
+assim na próxima instrução criamos um novo valor para endereçar na memória e movemos o valor 
+do acumulaor neste endereço.
+
+Já na instrução SHLD pega o endereço do par HL e transforma em conteúdo, em que primeiro
+endereça uma região de memória com o valor de L, depois aumenta o valor do operando (aumenta o
+valor do 2052 para 2053) e adicionar o valor do par H como conteúdo da região enderaçada na
+memória, logo mais temos o endereçaamento do par BC e depois movido o conteúdo do acumulador
+para o par respectivo.
+
+Por fim temos a instruçãoo XCHG onde os valores dos registradores par HL e DE são trocados e a
+última instrução HLT usada para analizar o processador, dizendo que "acabou a instruções".
+--------------------------------------------------------------------------------------------
+
+02) - 8085 - Lab2 - Segundo Programa
+ # ORG 2000 H
+ # BEGIN 2000 H
+// MOVENDO DADOS PARA POSICOES DE 2050 A 2054
+ MVI A, 01        //move o valor 01 para o acumulador
+ LXI B ,2050     //move o valor 2050 ao par BC
+ STAX B         //endereça o valor do par BC na memÓria com o conteúudo do acumulador
+ 
+ MVI A, 02       //move o valor 08 para o acumulador
+ LXI B ,2051    //move o valor 2082 ao par BC
+ STAX B        //enderEçaa o valor do par BC na memÓria com o conteúdo do acumulador
+ 
+ MVI A, 03      //move o valor 09 para o acumulador
+ LXI B ,2052   //move o valor 2083 ao par BC
+ STAX B       //endereça o valor do par BC na memÓria com o conteúdo do acumulador
+   
+ MVI A, 04      //move o valor 04 para o acumulador
+ LXI B ,2053   //move o valor 2053 ao par BC
+ STAX B       //endereça o valor do par BC na memÓria com o conteúdo do acumulador
+ 
+ MVI A, 05    //move o valor 05 para o acumulador
+ LXI B ,2054 //move o valor 2054 ao par BC
+ STAX B     //endereça o valor do par BC na memÓria com o conteúdo do acumulador
+
+// COPIANDO OS DADOS DAS POSICOES (2050 A 2054) PARA (2080 A 2084)
+ LXI D, 2050 //move o valor 2050 ao par DE
+ LDAX D      //move o conteudo da região 2050 para o acumulador
+ LXI H, 2080 //move o valor 2080 ao par HL
+ MOV M,A     //move o conteudo do acumulador para a região endereçada por HL
+
+ LXI D, 2051 //move o valor 2051 ao par DE
+ LDAX D      //move o conteudo da região 2051 para o acumulador
+ LXI H, 2081 //move o valor 2081 ao par HL
+ MOV M,A     //move o conteudo do acumulador para a região endereçada por HL
+
+ LXI D, 2052 //move o valor 2052 ao par DE
+ LDAX D      //move o conteudo da região 2052 para o acumulador
+ LXI H, 2082 //move o valor 2082 ao par HL
+ MOV M,A     //move o conteudo do acumulador para a região endereçada por HL
+
+ LXI D, 2053 //move o valor 2053 ao par DE
+ LDAX D      //move o conteudo da região 2053 para o acumulador
+ LXI H, 2083 //move o valor 2083 ao par HL
+ MOV M,A     //move o conteudo do acumulador para a região endereçada por HL
+
+ LXI D, 2054 //move o valor 2054 ao par DE
+ LDAX D      //move o conteudo da região 2054 para o acumulador
+ LXI H, 2084 //move o valor 2083 ao par HL
+ MOV M,A     //move o conteudo do acumulador para a região endereçada por HL
+ HLT         //encerra o processamento
+--------------------------------------------------------------------------------------------
+
+03) A partir do resultado, resuma as operações realizadas pelo programa, comentando-o.
+
+ //8085 - Lab2 - Terceiro Programa
+ # ORG 2000 H
+ # BEGIN 2000 H
+ MVI A ,01
+ LXI B ,2050
+ STAX B
+ MVI D ,02
+ ADD D
+ LXI H ,2050
+ ADD M
+ ADI FF
+ ACI 00
+ LXI H ,0102
+ LXI B ,0304
+ LXI D ,0506
+ DAD B
+ DAD D
+ HLT
+
+O terceiro programa usa apenas combinações entre as instruções vistas, na linha 8, 
+ADD D, temos o comando ADD onde é somado o valor o registrador D ao acumulador,em seguida o ADD M
+soma o conteudo do endereço dado pelo par HL ao acumulador, em seguida é realizado na linha 11, ADI FF,
+onde é somado FF ao acumulador, temos a subtraçãao utilizando ACI, e por fim através da instrução
+DAD B soma o valor do par BC ao HL e DAD D soma o conteudo de DE ao par HL
+--------------------------------------------------------------------------------------------
+
+04) - 8085 - Lab2 - Quarto Programa
+ # ORG 2000 H
+ # BEGIN 2000 H
+ MVI A, 01
+ LXI B ,2050
+ STAX B
+ MVI A, 02
+ LXI B ,2051
+ STAX B
+ MVI A, 03
+ LXI B ,2052
+ STAX B
+ MVI A, 04
+ LXI B ,2053
+ STAX B
+ MVI A, 05
+ LXI B ,2054
+ STAX B
+ 
+ MVI A, 06
+ LXI B ,2080
+ STAX B
+ MVI A, 07
+ LXI B ,2081
+ STAX B
+ MVI A, 08
+ LXI B ,2082
+ STAX B
+ MVI A, 09
+ LXI B ,2083
+ STAX B
+ MVI A, 0A
+ LXI B ,2084
+ STAX B
+ 
+ LXI D, 2050
+ LDAX D
+ MOV B,A
+ LXI D, 2080
+ LDAX D
+ ADD B
+ LXI H, 2090
+ MOV M,A
+ LXI D, 2051
+ LDAX D
+ MOV B,A
+ LXI D, 2081
+ LDAX D
+ ADD B
+ LXI H, 2091
+ MOV M,A
+
+ LXI D, 2052
+ LDAX D
+ MOV B,A
+ LXI D, 2082
+ LDAX D
+ ADD B
+ LXI H, 2092
+ MOV M,A
+
+ LXI D, 2053
+ LDAX D
+ MOV B,A
+ LXI D, 2083
+ LDAX D
+ ADD B
+ LXI H, 2093
+ MOV M,A
+
+ LXI D, 2054
+ LDAX D
+ MOV B,A
+ LXI D, 2084
+ LDAX D
+ ADD B
+ LXI H, 2094
+ MOV M,A
+
+ HLT
+--------------------------------------------------------------------------------------------
+
+05 - 8085 - Lab2 - QUINTO Programa
+ # ORG 2000 H
+ # BEGIN 2000 H
+
+ LXI H, 1030
+ LXI D, 2025
+ LXI B, 0050
+ DAD D
+ DAD B
+ LXI D, 3590
+ LXI B, 4250
+ DAD D
+ DAD B
+ HLT
+
+Qual o resultado da soma? Ocorreu overflow?
+Utilizando as instruções conjuntas do DAD e LXI, é somado dos valores
+entre os pares DE com par HL, salvando em HL, assim a mesma análogia com
+o par BC,o seu resultado é apresentado no par HL e não ocorre o overflow.
+--------------------------------------------------------------------------------------------
+
