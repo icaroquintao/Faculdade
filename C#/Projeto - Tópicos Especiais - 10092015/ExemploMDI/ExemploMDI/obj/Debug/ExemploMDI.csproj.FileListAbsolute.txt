@@ -1,0 +1,11 @@
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\bin\Debug\ExemploMDI.exe.config
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\bin\Debug\ExemploMDI.exe
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\bin\Debug\ExemploMDI.pdb
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.csprojResolveAssemblyReference.cache
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.Form1.resources
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.Properties.Resources.resources
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.csproj.GenerateResource.Cache
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.exe
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.pdb
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.FormFilho1.resources
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExemploMDI\ExemploMDI\obj\Debug\ExemploMDI.FormFilho2.resources

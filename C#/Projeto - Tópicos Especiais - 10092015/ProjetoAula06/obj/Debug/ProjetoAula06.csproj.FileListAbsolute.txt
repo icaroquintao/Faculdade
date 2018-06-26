@@ -1,0 +1,13 @@
+C:\Users\logonaf\Downloads\ProjetoAula06\bin\Debug\ProjetoAula06.exe.config
+C:\Users\logonaf\Downloads\ProjetoAula06\bin\Debug\ProjetoAula06.exe
+C:\Users\logonaf\Downloads\ProjetoAula06\bin\Debug\ProjetoAula06.pdb
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.csprojResolveAssemblyReference.cache
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.Form1.resources
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.Properties.Resources.resources
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.csproj.GenerateResource.Cache
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.exe
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.pdb
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.Form4.resources
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.Form3.resources
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.Form2.resources
+C:\Users\logonaf\Downloads\ProjetoAula06\obj\Debug\ProjetoAula06.Form5.resources

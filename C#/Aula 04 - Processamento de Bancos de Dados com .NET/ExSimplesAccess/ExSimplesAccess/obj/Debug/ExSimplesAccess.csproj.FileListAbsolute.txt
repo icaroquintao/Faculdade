@@ -1,0 +1,32 @@
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.exe.config
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.exe
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.pdb
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Properties.Resources.resources
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.csproj.GenerateResource.Cache
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.exe
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.pdb
+c:\users\mfpledon\documents\visual studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Form3.resources
+C:\Users\mfpledon\Documents\Visual Studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Principal.resources
+C:\Users\mfpledon\Documents\Visual Studio 2013\Projects\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Form2.resources
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.exe.config
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.exe
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.pdb
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.exe
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.pdb
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.csprojResolveAssemblyReference.cache
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Form2.resources
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Form3.resources
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Principal.resources
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Properties.Resources.resources
+D:\A01\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.csproj.GenerateResource.Cache
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.exe.config
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.exe
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.pdb
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.exe
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\bin\Debug\ExSimplesAccess.pdb
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.csprojResolveAssemblyReference.cache
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Form2.resources
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Form3.resources
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Principal.resources
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.Properties.Resources.resources
+T:\Aula 04 - TE\ExSimplesAccess\ExSimplesAccess\obj\Debug\ExSimplesAccess.csproj.GenerateResource.Cache
