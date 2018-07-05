@@ -27,19 +27,23 @@
 </script>
 
 </head>
-<body>
+<body class="bg-1">
 
 
     <!-- GRID //-->
     <div class="row">
 
-    <div class="bg-1">
+    <div class="col-md-4">
+    </div>
+
+    <div class="col-md-6">
         <form name="dados" method="post" action="router.php?op=5">
 
         <div class="form-group">
           <label for="email">E-mail:</label>
           <div class="col-sm-10">
           <input type="text" name="email">
+        </div>
       </div>
 
       <div class="form-group">
@@ -49,11 +53,10 @@
       </div>
     </div>
 
-    <br> <input type="submit" value="Acessar" onclick="validar()"><br>
-    <br> <input type="reset" value="Limpar"> <br>
+    <input type="submit" value="Acessar" onclick="validar()">
+    <input type="reset" value="Limpar">
 
   </form>
-</div>
 </div>
 </div>
 
