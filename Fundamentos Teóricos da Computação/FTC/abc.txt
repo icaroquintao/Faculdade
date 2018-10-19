@@ -1,0 +1,2 @@
+[WARNING] 3 casou com as tags: menor maior 
+menor menor menor 
