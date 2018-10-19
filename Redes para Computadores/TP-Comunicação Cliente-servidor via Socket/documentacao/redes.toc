@@ -1,0 +1,5 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}
+\contentsline {section}{\numberline {2}Objetivos}{3}
+\contentsline {section}{\numberline {3}Implementa\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {section}{\numberline {4}Ap\IeC {\^e}ndice}{5}

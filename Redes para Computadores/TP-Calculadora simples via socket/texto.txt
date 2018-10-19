@@ -1,0 +1,40 @@
+Trabalho Prático 1
+
+Return to: Camada de Aplic...
+Valor: 10 pts (10% da nota total) 
+
+O objetivo deste trabalho é aplicar o conceito de socket em redes de computadores.
+
+Descrição do Problema.
+
+Neste trabalho prático, você deve implementar uma comunicação entre processos situados em sistemas diferentes por meio do mecanismo socket. Um processo (cliente) deve transmitir para o processo (servidor) 2 números inteiros e a operação aritmética a ser realizada, digitadas manualmente pelo cliente. Ao receber as informações o processo (servidor) deve realizar a conta e reenviar o resultado ao processo (cliente). Todas informações e ações dos processos devem ser impressas na tela.
+
+
+
+Entre outras coisas, a documentação deve conter:
+
+1. Introdução: descrição do problema a ser resolvido e visão geral sobre o funcionamento do programa.
+
+2. Implementação: descrição sobre a implementação do programa. Devem ser detalhadas as estruturas de dados utilizadas (de preferência com diagramas ilustrativos), o funcionamento das principais funções e procedimentos utilizados, o formato de entrada e saída de dados, bem como decisões tomadas relativas aos casos e detalhes de especificação que porventura estejam omissos no enunciado. Muito importante: os códigos utilizados nas implementações devem ser inseridos na documentação.
+
+3. Listagem de testes executados: os testes executados devem ser apresentados e analisados e discutidos, quando convier.
+
+4. Conclusão: comentários gerais sobre o trabalho e as principais dificuldades encontradas em sua implementação.
+
+5. Bibliografia: bibliografia utilizada para o desenvolvimento do trabalho, incluindo sítio da Internet se for o caso. Uma referência bibliográfica deve ser citada no texto quando da sua utilização.
+
+6. Formato: mandatoriamente em PDF (http://www.pdf995.com/).
+
+Comentários Gerais:
+
+• Clareza, e comentários no programa também serão avaliados;
+
+• O trabalho deverá ser feito em dupla ou individual;
+
+• Trabalhos copiados (e FONTE) terão nota zero;
+
+• O trabalho será avaliado da seguinte maneira: 6 pontos para a implementação e 4 pontos para a documentação.
+
+• O aluno poderá ser arguido pelo professor sobre o código implementado.
+
+• Trabalhos entregues em atraso serão aceitos, todavia a nota atribuída será menor;

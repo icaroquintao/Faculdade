@@ -1,0 +1,9 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {section}{\numberline {2}Algoritmos}{1}
+\contentsline {subsection}{\numberline {2.1}Servidor}{1}
+\contentsline {subsection}{\numberline {2.2}Cliente}{1}
+\contentsline {section}{\numberline {3}Apresenta\IeC {\c c}\IeC {\~a}o e discuss\IeC {\~a}o dos resultados}{2}
+\contentsline {subsection}{\numberline {3.1}Discuss\IeC {\~a}o dos resultados}{10}
+\contentsline {section}{\numberline {4}Ap\IeC {\^e}ndice A}{10}
+\contentsline {section}{\numberline {5}Bibliografia}{13}

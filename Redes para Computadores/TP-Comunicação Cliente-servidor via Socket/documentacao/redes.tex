@@ -1,0 +1,112 @@
+\documentclass[brazil, a4paper,12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{indentfirst}
+\geometry{a4paper,left=3cm,right=3cm,top=2.5cm,bottom=2.93cm}
+
+\lstset{numbers=left,
+stepnumber=1,
+firstnumber=1,
+numberstyle=\footnotesize,
+extendedchars=true,
+breaklines=true,
+frame=tb,
+tabsize=2,
+basicstyle=\footnotesize,
+stringstyle=\ttfamily,
+showstringspaces=false
+}
+
+\renewcommand{\lstlistingname}{Código}
+
+\begin{document}
+\begin{titlepage}
+
+  \vfill
+
+  \begin{center}
+    \begin{large}
+      Universidade Federal de Ouro Preto
+    \end{large}
+  \end{center}
+
+  \begin{center}
+    \begin{large}
+      Instituto de Ciências Exatas e Aplicadas
+    \end{large}
+  \end{center}
+
+  \begin{center}
+    \begin{large}
+      Departamento de Computação e Sistemas
+    \end{large}
+  \end{center}
+
+  \vfill
+
+  \begin{center}
+    \begin{Large}
+      \textbf{Redes de Computadores 1\\[0.4cm] 
+        Trabalho Prático 1}               
+    \end{Large}
+  \end{center}
+
+
+  \vfill
+
+  \begin{center}
+    \begin{large}
+      Guilherme Marx Ferreira Tavares
+    \end{large}
+  \end{center}
+
+  \begin{center}
+    \begin{large}
+      Professor - Theo Silva Lins
+    \end{large}
+  \end{center}
+
+  \vfill
+
+  \begin{center}
+    \begin{large}
+      João Monlevade \\
+      \today \\
+    \end{large}
+  \end{center}
+
+\end{titlepage}
+
+%--------------------------------------------------------
+
+\tableofcontents 
+\newpage
+\section{Introdução}
+Desde o início da computação, foi necessária criar uma comunicação entre máquinas diferentes. Para padronizar essa comunicação, foram criados diversos protocolos. Hoje, temos a rede mundial de computadores, onde as máquinas estão todas conectadas por esses protocolos.
+\newpage
+\section{Objetivos}
+Esse trabalho tem como objetivo aplicar o conceito de socket em rede de Computadores. Será implementada uma comunicação entre dois sistemas diferentes.
+
+O cliente dessa comunicação irá receber uma sequência de 10 números inteiros e enviá-los ao Servidor. O Servidor deverá ordenar esses números inteiros e retornar ao Cliente.
+\newpage
+\section{Implementação}
+Primeiramente, é iniciado um servidor na porta 55555(vide códigos no apêndice). Esse servidor ficará esperando a conexão do Cliente.
+
+No Cliente, primeiramente é criado um Scanner para receber as entradas do teclado que o usuário digitará. Em seguida, inicia-se uma conexão com o Servidor e cria-se os canais de entrada e saída de dados.
+
+Em seguida o cliente envia os dados recebidos pelo Scanner pro Servidor.
+
+Novamente no servidor, esses dados recebidos como string primeiramente devem ser "cortados" em strings menores a fim de transformar esses números recebidos como chars em inteiros. Uma vez passados para inteiros, o comando Arrays.sort(vetor) é utilizado pra ordenar esse vetor. O vetor ordenado é passado, então, para uma string e retornado pro Cliente. Com isso, o Servidor encerra seu ciclo de operação.
+
+No Cliente, é recebido esse valor e exibido na tela e, em seguida, é fechada a conexão.
+\newpage
+\section{Apêndice}
+\lstinputlisting[language=java, label=cod:Cliente, caption={mainCliente.java}]{mainCliente.java}
+\lstinputlisting[language=java, label=cod:Servidor, caption={mainServidor.java}]{mainServidor.java}
+
+
+\end{document}

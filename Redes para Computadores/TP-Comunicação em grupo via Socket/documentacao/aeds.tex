@@ -1,0 +1,203 @@
+\documentclass[brazil, a4paper,12pt]{article}
+\bibliographystyle{plain}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{indentfirst}
+\geometry{a4paper,left=3cm,right=3cm,top=2.5cm,bottom=2.93cm}
+
+\lstset{numbers=left,
+stepnumber=1,
+firstnumber=1,
+numberstyle=\footnotesize,
+extendedchars=true,
+breaklines=true,
+frame=tb,
+tabsize=2,
+basicstyle=\footnotesize,
+stringstyle=\ttfamily,
+showstringspaces=false
+}
+
+\renewcommand{\lstlistingname}{Código}
+
+\begin{document}
+\begin{titlepage}
+
+  \vfill
+
+  \begin{center}
+    \begin{large}
+      Universidade Federal de Ouro Preto
+    \end{large}
+  \end{center}
+
+  \begin{center}
+    \begin{large}
+      Instituto de Ciências Exatas e Aplicadas
+    \end{large}
+  \end{center}
+
+  \begin{center}
+    \begin{large}
+      Departamento de Computação e Sistemas
+    \end{large}
+  \end{center}
+
+  \vfill
+
+  \begin{center}
+    \begin{Large}
+      \textbf{REDES DE COMPUTADORES\\[0.4cm]
+        Segundo Trabalho}
+    \end{Large}
+  \end{center}
+
+
+  \vfill
+
+  \begin{center}
+    \begin{large}
+      Guilherme Marx Ferreira Tavares (14.1.8006)
+    \end{large}
+  \end{center}
+  
+\begin{center}
+    \begin{large}
+      Gustavo Alves Abreu (14.2.8411)
+    \end{large}
+  \end{center}
+  
+  \begin{center}
+    \begin{large}
+      Professor - Theo Silva Lins
+    \end{large}
+  \end{center}
+
+  \vfill
+
+  \begin{center}
+    \begin{large}
+      João Monlevade \\
+      \today \\
+    \end{large}
+  \end{center}
+
+\clearpage
+\tableofcontents
+\end{titlepage}
+
+%--------------------------------------------------------
+
+
+\section{Introdução}
+
+A característica do modelo cliente-servidor, descreve a relação de programas numa aplicação.  O componente de servidor fornece uma função ou serviço a um ou mais clientes, que iniciam os pedidos de serviço. Tal modelo tornou-se uma das ideias centrais de computação de rede. Muitos aplicativos de negócios, escritos hoje, utilizam o modelo cliente-servidor. O termo também tem sido utilizado para distinguir a computação distribuída por computadores dispersos da "computação" monolítica centralizada em mainframe.
+
+Esta documentação propõe uma abordagem para resolver o seguinte problema proposto: deve ser implementado um servidor Multicast para comunicação de clientes. A comunicação entre processos devem estar situados em sistemas diferentes. O servidor simula o Multicast e deve ser responsável por gerenciar uma rede Multicast, de mesmo ip do servidor. Todas informações e ações dos processos devem ser impressas na tela.
+"Multicasting é um método ou técnica de transmissão de um pacote de dados para múltiplos destinos ao mesmo tempo. Durante uma transmissão Multicast, o transmissor envia os pacotes de dados somente uma vez."
+
+\section{Referencial Teórico}
+
+Nesta seção são apresentados alguns termos necessários para uma melhor compreeensão do trabalho desenvolvido.
+
+\subsection{Aplicaçoes Cliente Servidor}
+
+Cliente-servidor é uma arquitetura de aplicação que estabelece relação entre processos que estão sendo executados em máquinas distintas[Bragança 1999].
+Os Hosts fornecedores de um recurso ou serviço são denominados como servidores e os requerentes dos serviços são chamados de clientes.
+
+Geralmente os clientes e servidores comunicam através de uma rede de computadores em computadores distintos, mas tanto o cliente quanto o servidor podem residir no mesmo computador.
+
+\subsection{Transmission Control Protocol}
+
+O Protocolo de Controle de Transmissão, ou protocolo TCP, é um protocolo da camada de transporte confiável em que existe a garantia que os dados são integralmente transmitidos para os hosts de destino corretos na sequência pelo qual foram enviados.  O TCP segmenta a informação proveniente da Camada Aplicação em pequenos blocos de informação, inserindo-lhes um cabeçalho de forma que seja possível no host de destino fazer remontagem dos dados.
+
+Este cabeçalho contém um conjunto de bits (checksum) que permite tanto a validação dos dados como do próprio cabeçalho.  A utilização do checksum permite muitas vezes o host de destino recuperar informação em caso de erros simples na transmissão (nos casos da rede corromper o pacote). Caso a informação seja impossível de recuperar ou o pacote TCP/IP se tenha perdido durante a transmissão, é tarefa do TCP voltar a transmitir o pacote. Para que o host de origem tenha a garantia que o pacote chegou isento de erros, é necessário que o host de destino o informe através do envio de uma mensagem de acknowledgement ou ACK.[Socolofsky and Kale 1991]. Características do protocolo IP:
+
+\begin{itemize}
+\item Transferência de dados:  transmissão ponto-a-ponto de blocos de dados no modo full-duplex ;
+\item Transferência de dados com diferentes prioridades:  transmite em primeiro lugar os datagramas que contenham sinalização de prioridade superior;
+\item Estabelecimento e liberação de conexões;
+\item Sequenciação: Ordenação dos pacotes recebidos;
+\item Segmentação e remontagem:  O TCP divide os dados a serem transmitidos em pequenos blocos de dados, identificando-os de forma a que no host de destino seja possível reagrupá-los;
+\item Controle de fluxo:  o TCP é capaz de adaptar a transmissão dos datagramas às condições de transmissões ( velocidade , tráfego ...  )  entre os diversos sistemas envolvidos;
+\item Controle de erros:  A utilização de checksum permite verificar se os dados transmitidos estão livres de erros. É possível, para além da detecção a sua correção;
+\item Multiplexagem de IP: Uma vez que é utilizado o conceito de portas, é possível enviar dados de diferentes tipos de serviços (portas diferentes) para o mesmo host de destino;
+\end{itemize}
+
+\subsection{Thread}
+Thread      pode      ser      entendida      como      uma      porção      mais      “leve" de      um processo[Tanenbaum 2009].      Como   a   troca   de   contexto   entre   dois   processos   na CPU  pode  ser  muito  cara  computacionalmente,  o  uso  de  threads  possibilita  que  uma aplicação não fique bloqueada esperando por uma entrada ou recurso,  possibilitando a execução de operações paralelamente.
+A partir disso, surge o conceito de multithreading, que seria um modelo de programação onde o programa pode ser divido em várias threads, podendo ter vários segmentos executados em paralelo.
+
+\section{Implementação}
+
+Usou-se a linguagem Java para solucionar o problema apresentado devido à experiências anteriores do autor com problemas relacionados usando esta linguagem e também pelo nível de conhecimento do autor sobre a mesma e para isso foi utilizada a IDE Netbeans (8.2) 64 bits.
+
+Para esse problema foi usada uma abordagem em que as aplicações servidoras possuíssem um mecanismo para tratar as várias conexões de aplicações clientes, utilizando o conceito de multithreading.
+
+Para isso, foi desenvolvida uma classe gerenciadora com o estereótipo Handler, que nada mais é do que uma thread que é responsável por tratar cada nova conexão estabelecida com os servidores.
+
+Outro aspecto a se destacar é o uso de troca de mensagens com codificação UTF,que é uma maneira de impedir que aplicações executando em sistemas que usem codificações diferentes,  enviem mensagens que fujam do escopo tratado na concepção das mesmas.
+
+Aliado a essas características está o protocolo TCP, que foi escolhido pelas suas características que prezam pela confiabilidade na transmissão de dados.
+
+\subsection{Aplicação do Cliente}
+
+A aplicação do cliente é composta por duas classes e cinco variáveis:
+\begin{itemize}
+\item Server IP: Uma String que salva o endereço de IP do servidor;
+\item dis : Variavél de leitura de dados da rede;
+\item dos : Variavél de escrita de dados na rede;
+\item requestType: A String que guarda a requisição feita ao servidor;
+\item In : Scanner responsavel para a leitura de dados do teclado.
+\end{itemize}
+
+Nesta aplicação inicialmente é informado o IP do servidor para que a aplicação se conecte ao mesmo. Caso a conexão seja bem-sucedida então a aplicação cliente exibe um menu na tela com as opções ao cliente.
+
+Este menu possui cinco opções:
+\begin{itemize}
+\item Entrar no grupo: Envia uma RequestType para o servidor solicitando a entrada no grupo e recebe a resposta.
+\item Sair do grupo: Envia uma RequestType para o servidor solicitando a saida do grupo e recebe a resposta.
+\item Enviar Mensagem no grupo: Envia uma RequestType para o servidor solicitando o envio de uma mensagem no grupo e já envia a mensagem com a codificação UTF.
+\item Escutar Mensagens do grupo: Se mantem atento em um loop a todas as mensagens recebidas na variavél dis por quinze segundos.
+\item Sair do programa: Fecha o socket da conexão e encera o programa.
+\end{itemize}
+
+Após qualquer escolha que não seja sair do programa, o usuário será redicionado para o menu ao fim da execução correspondente.
+
+\subsection{Aplicação do Servidor}
+
+A aplicação servidor é composta por três classes: HandleConnection, MyServerSocket e MainWindown.  A Classe MyServerSocket é a classe principal onde é criado um Socket de servidor para aceitar várias conexões e para cada nova conexão é instanciado um novo objeto da classe gerenciadora Handle Connection para que seja iniciada uma thread para gerenciar esta nova conexão.
+
+Qualquer que seja a exceção lançada, ela necessariamente irá causar o encerramento da aplicação servidora.
+
+A Classe HandleConnection inicializa a entrada e saída de dados, aguardando o RequestType do cliente, que aqui será chamado de ServerAction. Se a requisição for entrada no grupo esta classe irá adicionar este cliente no arraylist de conexões presente na classe MyServerSocket. Se a requisição for de saída esta irá remover este cliente do arraylist. Se a requisição for de enviar mensagem no grupo esta classe irá percorrer o arraylist enviado a cada um dos clientes a mensagem que foi recebida.
+
+A Classe MainWindown é responsável pela interface gráfica.
+
+\section{Conclusão}
+
+A partir de toda a elaboração deste trabalho, pôde-se perceber o quão é importante um serviço de multicast com a intenção de redirecionar a vários clientes diferentes uma mesma mensagem, além deste serviço ser amplamente utilizado para a navegação na internet.
+
+A maior das dificuldades foi o uso de Threads, isso pois, a sincronização das Threads no programa é muito importante, uma vez que cada cliente só tem uma variável de entrada e uma de saída de dados, então precisou se ter muito cuidado com o uso destas variáveis, para não gerar erros desnecessários.
+
+
+
+\section{Apêndice A}
+\lstinputlisting[language=java, label=cod:MainClient.java, caption={MainClient.java}]{MainClient.java}
+\lstinputlisting[language=java, label=cod:MyClientSocket.java, caption={MyClientSocket.java}]{MyClientSocket.java}
+\lstinputlisting[language=java, label=cod:MainWindown.java, caption={MainWindown.java}]{MainWindown.java}
+\lstinputlisting[language=java, label=cod:MyServerSocket.java, caption={MyServerSocket.java}]{MyServerSocket.java}
+\lstinputlisting[language=java, label=cod:HandleConnection.java, caption={HandleConnection.java}]{HandleConnection.java}
+
+
+
+\newpage
+\section{Referências}
+[Bragança 1999]  Bragança, A. (1999). Desenvolvimento cliente-servidor. Instituto Superior de Engenharia do Porto.
+
+[Tanenbaum 2009]  Tanenbaum, A. S. (2009).Sistemas Operacionais Modernos, volume 1.Prentice Hall, 3ª edition
+\end{document}
